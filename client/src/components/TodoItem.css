@@ -1,0 +1,26 @@
+/* src/components/TodoItem.css */
+
+li {
+    /* display: flex; */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+.TodoButton{
+    display: flex;
+    flex-direction: column;
+  }
+
+  li h3 {
+    flex: 1;
+  }
+  
+  li p {
+    flex: 2;
+  }
+  
+  select {
+    margin-right: 10px;
+  }
+  

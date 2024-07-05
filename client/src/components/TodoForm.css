@@ -1,0 +1,29 @@
+/* src/components/TodoForm.css */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    align-content: center;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  input[type="submit"] {
+    align-self: flex-end;
+    background-color: #28a745;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #218838;
+  }
+  
